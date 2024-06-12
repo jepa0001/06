@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1203 940">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-2, .cls-6, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-10, .cls-11 {
+        fill: #fff;
+      }
+
+      .cls-12 {
+        fill: #a20025;
+        stroke: #6f0000;
+      }
+
+      .cls-13 {
+        stroke-width: 0px;
+      }
+
+      .cls-13, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-7, .cls-14 {
+        fill: #000;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 0 0 3 3;
+      }
+
+      .cls-10 {
+        font-size: 12.8px;
+      }
+
+      .cls-10, .cls-14, .cls-11 {
+        font-family: Helvetica, Helvetica;
+        isolation: isolate;
+      }
+
+      .cls-15 {
+        fill: #60a917;
+        stroke: #2d7600;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #18141d;
+      }
+
+      .cls-14, .cls-11 {
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <path class="cls-6" d="M285.3,28.1l.5,19.4" pointer-events="stroke"/>
+  <path class="cls-2" d="M285.9,52.8l-3.7-6.9,3.5,1.7,3.4-1.8-3.3,7.1Z" pointer-events="all"/>
+  <circle class="cls-4" cx="285.3" cy="13.1" r="15" pointer-events="all"/>
+  <path class="cls-6" d="M273.4,183.1l-50.1,31.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M218.8,217.5l4.1-6.7.4,3.9,3.4,2-7.8.8Z" pointer-events="all"/>
+  <path class="cls-6" d="M296.2,183.1l45.5,31.4" pointer-events="stroke"/>
+  <path class="cls-2" d="M345.9,217.5l-7.8-1.1,3.4-1.9.5-3.9,3.8,6.9Z" pointer-events="all"/>
+  <path class="cls-6" d="M467.8,175.8l542.5.4c6.7,0,10,3.3,10,10v45.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M1020.3,237l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-8" x="102.8" y="168.1" width="365" height="15" pointer-events="all"/>
+  <path class="cls-6" d="M170.3,278.1v63.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M170.3,347l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-12" x="110.3" y="218.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(125.1 251.6)"><tspan x="0" y="0">gamle damer ind</tspan></text>
+  <path class="cls-6" d="M416.8,279.2l-1.4,62.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M415.3,347l-3.3-7.1,3.5,1.8,3.5-1.7-3.7,6.9Z" pointer-events="all"/>
+  <rect class="cls-15" x="330.3" y="218.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(345.1 251.6)"><tspan x="0" y="0">hjort kommer ind</tspan></text>
+  <path class="cls-6" d="M170.3,428.1v83.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M170.3,517l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <path class="cls-1" d="M120.3,368.1l-5.5-11.1c-3-6-1.1-8.9,5.5-8.9h80c6.7,0,11.5,3,14.5,8.9l11.1,22.1c3,6,3,11.9,0,17.9l-11.1,22.1c-3,6-7.8,8.9-14.5,8.9h-80c-6.7,0-8.5-3-5.5-8.9l11.1-22.1c3-6,3-11.9,0-17.9l-5.5-11.1Z" pointer-events="all"/>
+  <text class="cls-14" transform="translate(113.1 391.6)"><tspan x="0" y="0">klik på gammel dame</tspan></text>
+  <path class="cls-6" d="M170.3,578.1v73.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M170.3,657l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-8" x="110.3" y="518.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-10" transform="translate(125.5 552.2) scale(.8 1)"><tspan x="0" y="0">gammel dame dør</tspan></text>
+  <path class="cls-6" d="M170.3,718.1v71.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M170.3,795l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-8" x="110.3" y="658.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(125.5 691.6)"><tspan x="0" y="0">du mister 1 point</tspan></text>
+  <path class="cls-6" d="M374.1,818.1l-12.5,100.1c-.8,6.6-4.6,9.6-11.2,9l-290.1-28.1c-6.6-.6-10.1-4.3-10.3-11l-9.4-290c-.2-6.7-.3-13.3-.3-20V186.1c0-6.7,3.3-10,10-10.1l46.1-.4" pointer-events="stroke"/>
+  <path class="cls-2" d="M101.7,175.7l-7,3.6,1.7-3.5-1.8-3.5,7,3.4Z" pointer-events="all"/>
+  <rect class="cls-8" x="110.3" y="798.1" width="530" height="20" pointer-events="all"/>
+  <path class="cls-6" d="M380.3,378.1h-20c-6.7,0-10,3.3-10,10v73.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M350.3,467l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <path class="cls-6" d="M450.3,378.1h100c6.7,0,10,3.3,10,10v73.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M560.3,467l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <path class="cls-1" d="M415.3,348.1l35,30-35,30-35-30,35-30Z" pointer-events="all"/>
+  <path class="cls-6" d="M350.3,528.1v73.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M350.3,607l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-8" x="290.3" y="468.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <g>
+    <text class="cls-11" transform="translate(330.3 504.2)"><tspan x="0" y="0">hjort dør</tspan></text>
+    <text/>
+  </g>
+  <path class="cls-6" d="M560.3,528.1v73.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M560.3,607l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-8" x="500.3" y="468.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(518 501.6)"><tspan x="0" y="0">hjort passerer</tspan></text>
+  <path class="cls-6" d="M349.3,668.1l-4,122" pointer-events="stroke"/>
+  <path class="cls-2" d="M345.1,795.4l-3.3-7.1,3.4,1.9,3.6-1.6-3.7,6.9Z" pointer-events="all"/>
+  <rect class="cls-8" x="290.3" y="608.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(313.1 641.6)"><tspan x="0" y="0">du får et point</tspan></text>
+  <path class="cls-6" d="M560.3,668.1v23.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M560.3,697l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-8" x="500.3" y="608.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(522.8 641.6)"><tspan x="0" y="0">du mister 1 liv</tspan></text>
+  <path class="cls-6" d="M560.5,757.9l.2,33.5" pointer-events="stroke"/>
+  <path class="cls-2" d="M560.8,796.7l-3.5-7,3.5,1.7,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <path class="cls-6" d="M590.3,728.1h313.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M909.2,728.1l-7,3.5,1.8-3.5-1.8-3.5,7,3.5Z" pointer-events="all"/>
+  <path class="cls-9" d="M545.3,713.1l7.9-7.9c4.7-4.7,9.4-4.7,14.1,0l15.9,15.9c4.7,4.7,4.7,9.4,0,14.1l-15.9,15.9c-4.7,4.7-9.4,4.7-14.1,0l-15.9-15.9c-4.7-4.7-4.7-9.4,0-14.1l7.9-7.9Z" pointer-events="all"/>
+  <path class="cls-6" d="M1020.3,278.1v198.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M1020.3,482l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <path class="cls-1" d="M1000.3,238.1h40l-20,20-20-20Z" pointer-events="all"/>
+  <path class="cls-1" d="M1000.3,278.1h40l-20-20-20,20Z" pointer-events="all"/>
+  <path class="cls-6" d="M1052.2,516.2l88.1,1.7c6.7.1,10,3.5,10,10.2v163.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M1150.3,697l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <path class="cls-6" d="M987.8,515.6l-27.5,1.8c-6.7.4-10,4-10,10.7l-.6,165.1" pointer-events="stroke"/>
+  <path class="cls-2" d="M949.7,698.5l-3.5-7,3.5,1.8,3.5-1.7-3.5,7Z" pointer-events="all"/>
+  <path class="cls-1" d="M1020.3,483.1l32.5,32.5-32.5,32.5-32.5-32.5,32.5-32.5Z" pointer-events="all"/>
+  <path class="cls-6" d="M970.3,758.1v70c0,6.7,3.3,10,10,10h70c6.7,0,10.1,3.3,10.4,10l.9,23.8" pointer-events="stroke"/>
+  <path class="cls-2" d="M1061.8,877.1l-3.8-6.9,3.6,1.6,3.4-1.9-3.2,7.1Z" pointer-events="all"/>
+  <rect class="cls-8" x="910.3" y="698.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(941.5 731.6)"><tspan x="0" y="0">game over</tspan></text>
+  <path class="cls-6" d="M1140.3,758.1v70c0,6.7-3.3,10-10,10h-60c-6.7,0-9.9,3.3-9.6,10l.9,23.9" pointer-events="stroke"/>
+  <path class="cls-2" d="M1061.7,877.3l-3.8-6.9,3.6,1.6,3.4-1.9-3.2,7.1Z" pointer-events="all"/>
+  <rect class="cls-8" x="1080.3" y="698.1" width="120" height="60" rx="9" ry="9" pointer-events="all"/>
+  <text class="cls-11" transform="translate(1101.5 731.6)"><tspan x="0" y="0">level complete</tspan></text>
+  <ellipse class="cls-7" cx="1062.8" cy="903.1" rx="23.5" ry="21" pointer-events="all"/>
+  <ellipse class="cls-5" cx="1062.8" cy="903.1" rx="27.5" ry="25" pointer-events="all"/>
+  <path class="cls-6" d="M285.3,108.1v53.6" pointer-events="stroke"/>
+  <path class="cls-2" d="M285.3,167l-3.5-7,3.5,1.8,3.5-1.8-3.5,7Z" pointer-events="all"/>
+  <rect class="cls-3" x="207.8" y="58.1" width="155" height="50" rx="10" ry="10" pointer-events="all"/>
+  <text class="cls-14" transform="translate(220.5 76.6)"><tspan x="0" y="0">baggrunds musik starter</tspan></text>
+  <rect class="cls-13" x="230.3" y="348.1" width="200" height="25" pointer-events="all"/>
+  <text class="cls-14" transform="translate(280.1 366.6)"><tspan x="0" y="0">bruger klikker først</tspan></text>
+  <rect class="cls-13" x="430.3" y="348.1" width="200" height="25" pointer-events="all"/>
+  <text class="cls-14" transform="translate(466.1 366.6)"><tspan x="0" y="0">hjort rammer siden først</tspan></text>
+  <rect class="cls-13" x="540.3" y="758.1" width="200" height="25" pointer-events="all"/>
+  <text class="cls-14" transform="translate(597.1 776.6)"><tspan x="0" y="0">stadig liv tilbage</tspan></text>
+  <rect class="cls-13" x="1030.3" y="235.6" width="200" height="25" pointer-events="all"/>
+  <text class="cls-14" transform="translate(1063.5 254.6)"><tspan x="0" y="0">spillet slutter efter 20 sek</tspan></text>
+  <rect class="cls-13" x="1035.3" y="468.1" width="200" height="25" pointer-events="all"/>
+  <text class="cls-14" transform="translate(1085.1 486.6)"><tspan x="0" y="0">15 point eller mere</tspan></text>
+  <rect class="cls-13" x="100.3" y="878.1" width="200" height="25" pointer-events="all"/>
+  <text class="cls-14" transform="translate(143.5 896.6)"><tspan x="0" y="0">spillet er stadig igang</tspan></text>
+</svg>

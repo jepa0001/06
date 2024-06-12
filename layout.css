@@ -1,0 +1,460 @@
+/* -------------- forside -------------- */
+.lottiegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lottie {
+  grid-column: 2 / 3;
+}
+
+/* -------------- om mig -------------- */
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.tekst {
+  grid-column: 6 / 7;
+}
+
+.cv {
+  grid-column: 5 / 7;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.billede {
+  grid-column: 2 / 5;
+  width: 30%;
+  padding-left: 10rem;
+}
+
+/* -------------- grundweb -------------- */
+
+.grundwebgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grundwebtekst {
+  grid-column: 2 / 4;
+}
+
+.gestaltlovene {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gestalttekst {
+  grid-column: 1 / 4;
+}
+
+.gestaltlov1 {
+  grid-column: 1 / 2;
+}
+.gestaltlov2 {
+  grid-column: 2 / 3;
+}
+.gestaltlov3 {
+  grid-column: 3 / 4;
+}
+.gestaltlov4 {
+  grid-column: 1 / 2;
+}
+.gestaltlov5 {
+  grid-column: 3 / 4;
+}
+
+.gridcomputer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.minpctekst {
+  grid-column: 3 / 6;
+}
+
+.wireframe {
+  grid-column: 1 / 3;
+}
+.layout {
+  grid-column: 3 / 5;
+}
+.wftekst {
+  grid-column: 1 / 3;
+}
+.ldtekst {
+  grid-column: 3 / 5;
+}
+
+.minforside {
+  grid-column: 2 / 5;
+}
+
+/* -------------- grundui -------------- */
+
+.grunduigrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grunduitekst {
+  grid-column: 2 / 4;
+}
+
+.pladsgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.overskriftplads {
+  padding-top: 3rem;
+  grid-column: 3 / 5;
+}
+
+.pladstekst {
+  grid-column: 3 / 5;
+}
+
+.pladspic {
+  grid-column: 2 / 4;
+}
+
+.pladstekst2 {
+  grid-column: 1 / 3;
+}
+
+.moodboardpic {
+  grid-column: 2 / 4;
+}
+
+.pladstekst3 {
+  grid-column: 3 / 5;
+}
+
+.pladstekst4 {
+  grid-column: 1 / 4;
+}
+
+.pladspic {
+  grid-column: 2/4;
+}
+
+/* -------------- grundani -------------- */
+
+.grundanigrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grundanitekst1 {
+  grid-column: 2/4;
+}
+
+.grundanitekst2 {
+  grid-column: 1/3;
+}
+
+.statepic {
+  grid-column: 2/4;
+}
+
+.grundanitekst3 {
+  grid-column: 2/3;
+}
+
+.grundanitekst4 {
+  grid-column: 1/3;
+}
+
+.grundanitekst5 {
+  grid-column: 1/3;
+}
+
+.gallerigrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.billede1 {
+  grid-column: 2 / 3;
+}
+
+.billede2 {
+  grid-column: 3 / 4;
+}
+
+.billede3 {
+  grid-column: 4 / 5;
+}
+
+.billede4 {
+  grid-column: 2 / 3;
+}
+
+.billede5 {
+  grid-column: 3 / 4;
+}
+
+.billede6 {
+  grid-column: 4 / 5;
+}
+
+/* -------------- grundind -------------- */
+
+.grundindgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.sitegrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grundindoverskrift {
+  padding-top: 3rem;
+  grid-column: 2 / 4;
+}
+
+.grundindtekst1 {
+  grid-column: 2 / 4;
+}
+
+.grundindtekst2 {
+  grid-column: 1 / 3;
+}
+.grundindtekst3 {
+  grid-column: 2 / 4;
+}
+.grundindtekst4 {
+  grid-column: 4 / 5;
+}
+.grundindtekst5 {
+  grid-column: 2 / 4;
+}
+.grundindtekst6 {
+  grid-column: 1 / 2;
+}
+.grundindbillede1 {
+  grid-column: 1 / 4;
+}
+
+.grundindbillede2 {
+  grid-column: 2 / 5;
+}
+
+/* ------ ------ ------ ------ ------ ------ ------ media query ------------ ------ ------ ------  */
+
+@media (max-width: 750px) {
+  /* ------ om mig ------ */
+  .grid1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .billede {
+    width: 60%;
+    position: fixed;
+  }
+  .tekst {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 26rem;
+  }
+
+  .cv {
+    grid-column: 2 / 3;
+    padding-top: 25rem;
+  }
+  /* ------ grundweb ------ */
+  .grundwebgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .grundwebtekst {
+    grid-column: 2 / 4;
+  }
+
+  .gestaltlovene {
+    padding-left: 0rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .gestalttekst {
+    grid-column: 1 / 2;
+  }
+
+  .gestaltlov1 {
+    grid-column: 1 / 2;
+  }
+  .gestaltlov2 {
+    grid-column: 1 / 2;
+  }
+  .gestaltlov3 {
+    grid-column: 1 / 2;
+  }
+  .gestaltlov4 {
+    grid-column: 1 / 2;
+  }
+  .gestaltlov5 {
+    display: none;
+  }
+
+  .gridcomputer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .minpctekst {
+    grid-column: 1 / 2;
+  }
+
+  .wireframe {
+    grid-column: 1 / 2;
+  }
+  .layout {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+
+  .ldwftekst {
+    grid-column: 1 / 2;
+    margin-right: -2rem;
+  }
+
+  .wftekst {
+    grid-column: 1 / 2;
+  }
+  .ldtekst {
+    grid-column: 1 / 2;
+  }
+
+  .minforside {
+    grid-column: 1 / 2;
+  }
+
+  /* -------------- grundui -------------- */
+  .overskriftgrundui {
+    padding-top: 2rem;
+    margin-left: 0;
+  }
+
+  .grunduigrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grunduitekst {
+    grid-column: 1 / 2;
+  }
+
+  .pladsgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .overskriftplads {
+    padding-top: 3rem;
+    margin-left: 0;
+
+    grid-column: 1 / 2;
+  }
+
+  .pladstekst {
+    grid-column: 1 / 2;
+  }
+
+  .pladspic {
+    grid-column: 1 / 2;
+  }
+
+  .brainstorm {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .pladstekst2 {
+    grid-column: 1 / 2;
+  }
+
+  .moodboardpic {
+    grid-column: 1 / 2;
+  }
+
+  .moodboard {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .pladstekst3 {
+    grid-column: 1 / 2;
+  }
+
+  .pladstekst4 {
+    grid-column: 1 / 2;
+  }
+
+  .pladspic {
+    grid-column: 1 / 2;
+    width: 80%;
+  }
+
+  /* -------------- grundani -------------- */
+
+  .overskriftgrundani {
+    padding-top: 2rem;
+    margin-left: 0;
+  }
+
+  /* -------------- grundind -------------- */
+
+  .grundindgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .sitegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .grundindoverskrift {
+    padding-top: 3rem;
+    grid-column: 1 / 2;
+  }
+
+  .grundindtekst1 {
+    grid-column: 1 / 2;
+  }
+
+  .grundindtekst2 {
+    grid-column: 1 / 2;
+  }
+  .grundindtekst3 {
+    grid-column: 1 / 2;
+  }
+  .grundindtekst4 {
+    grid-column: 1 / 2;
+  }
+  .grundindtekst5 {
+    grid-column: 1 / 2;
+  }
+  .grundindtekst6 {
+    grid-column: 1 / 2;
+  }
+  .grundindbillede1 {
+    grid-column: 1 / 2;
+  }
+
+  .grundindbillede2 {
+    grid-column: 1 / 2;
+  }
+}

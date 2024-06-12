@@ -1,0 +1,303 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.tilbage {
+  font-family: "jost";
+  text-decoration: none;
+  color: #dcdcdc;
+}
+
+.tilbage:hover {
+  color: #4167ee;
+}
+
+header {
+  position: fixed;
+  top: 0.5rem;
+}
+
+/* -------------- forside -------------- */
+
+a,
+h1 {
+  font-family: "jost";
+  font-style: italic;
+  text-decoration: none;
+  color: #4167ee;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "jost";
+  font-style: italic;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+p {
+  font-family: "lora";
+  text-decoration: none;
+  font-size: 40px;
+}
+.forside {
+  padding: 4rem;
+  padding-top: 0rem;
+}
+
+.forsideoverflow {
+  overflow: hidden;
+}
+
+/* -------------- om mig -------------- */
+
+.tekst {
+  margin: -1rem;
+  padding-top: 11rem;
+}
+
+.cv {
+  margin: -1rem;
+  padding-top: 9rem;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "lora";
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.billede {
+  top: 5rem;
+  position: fixed;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+  .billede {
+    position: relative;
+    padding: 0rem;
+  }
+  .forsideoverflow {
+    overflow: scroll;
+  }
+}
+
+/* -------------- grundweb -------------- */
+.overskriftgrundweb {
+  margin-left: 10rem;
+}
+
+.overskriftgrundweb2 {
+  padding-left: 4rem;
+  margin-top: -6rem;
+}
+
+.grundwebtekst {
+  margin-bottom: 9rem;
+}
+
+.gestalttekst {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.gestaltlovene {
+  padding-left: 10rem;
+}
+
+.gestaltlov1 {
+  padding-left: 4rem;
+  padding-bottom: 3rem;
+}
+.gestaltlov2 {
+  padding-left: 2rem;
+}
+.gestaltlov3 {
+  padding-left: 2rem;
+}
+.gestaltlov4 {
+  padding-left: 10rem;
+}
+.gestaltlov5 {
+  padding-right: 10rem;
+  margin-left: -10rem;
+}
+
+.gridcomputer {
+  padding-left: 2rem;
+  margin-top: 10rem;
+}
+
+.layout {
+  padding-left: 2rem;
+}
+
+.ldwftekst {
+  padding-left: 4rem;
+  margin-right: -10rem;
+}
+
+.wftekst {
+  padding-left: 6rem;
+}
+
+.ldtekst {
+  padding-left: 4rem;
+}
+
+.wireframe {
+  padding-left: 4rem;
+}
+
+.forsidebillede {
+  width: 80%;
+}
+
+/* -------------- grundui -------------- */
+
+.overskriftgrundui {
+  margin-left: 40rem;
+}
+
+.overskriftplads {
+  margin-left: 30rem;
+}
+
+.brainstorm {
+  width: 130%;
+  margin-left: -6rem;
+}
+
+.pladstekst2 {
+  padding-left: 4rem;
+}
+
+.moodboard {
+  width: 130%;
+  margin-left: -6rem;
+}
+
+/* -------------- grundani -------------- */
+
+.overskriftgrundani {
+  margin-left: 40rem;
+}
+
+.grundanitekst2 {
+  padding-left: 4rem;
+}
+
+.grundanitekst4 {
+  padding-left: 4rem;
+}
+
+.grundanitekst5 {
+  padding-left: 4rem;
+}
+
+.spil {
+  padding-top: 10rem;
+  padding-left: 4rem;
+}
+
+/* -------------- grundind -------------- */
+
+.passionoverskrift {
+  padding-left: 4rem;
+}
+
+.grundindtekst2 {
+  padding-left: 4rem;
+}
+
+.grundindbillede1 {
+  padding-left: 4rem;
+}
+
+/* -------- fade ind -----------*/
+.fade {
+  animation: fadeInAnimation ease 0.6s;
+  animation-iteration-count: 1;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* -------- solbriller -----------*/
+
+#briller_container {
+  top: 19.7rem;
+  left: 25.7rem;
+  width: 15%;
+  height: 50%;
+  position: fixed;
+}
+
+#briller_sprite {
+  width: 30%;
+  height: 12%;
+  background-image: url(briller.png);
+  background-size: 100%;
+  transform: rotate(-9deg);
+}
+
+.hop {
+  animation-name: hop_kf;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+@keyframes hop_kf {
+  0% {
+    transform: translateY(-300%);
+  }
+
+  50% {
+    transform: translateY(0%);
+  }
+}
+
+/* -------- mediaquery -----------*/
+
+@media (max-width: 750px) {
+  #briller_container {
+    top: 14.5rem;
+    left: 20.3rem;
+    width: 30%;
+    height: 20%;
+    position: fixed;
+  }
+
+  #briller_sprite {
+    width: 30%;
+    height: 12%;
+    background-image: url(briller.png);
+    background-size: 100%;
+    transform: rotate(-9deg);
+  }
+
+  .hop {
+    animation-name: hop_kf;
+    animation-duration: 4s;
+    animation-direction: alternate;
+  }
+
+  @keyframes hop_kf {
+    0% {
+      transform: translateY(-300%);
+    }
+
+    50% {
+      transform: translateY(0%);
+    }
+  }
+}
